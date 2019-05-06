@@ -1,0 +1,125 @@
+For older release notes see here: http://www.bforartists.de/wiki/release-notes
+You can report bugs in the Github tracker: https://github.com/Bforartists/Bforartists/issues
+Official Webpage: http://www.bforartists.de
+
+The Bforartists 2 alpha 0.3.0 release continues with cleaup work after the big merge of 2.80 into Bforartists. It comes also with first improvements in the original Blender 2.80 UI. Like lots of improved tooltips. A few things are at a different position now. We have started to remove double menu entries again, added menu entries for hotkey only functionality and added again quite a few missing and new icons.
+
+--------------------------------------------------------------------
+
+Release note Bforartists 2 Version 0.2.0 - 03.03.2019
+
+Changed the splash screen to version 0.3.0
+Merge remote-tracking branch 'blender/master' into sync_blender_master
+Hide editortype menus in the default layouts #730
+UV Editor - Remove double menu entry Proportional Editing #729
+UV Editor, make snap to pixels a prop for the header #722
+UV Image Editor - Put UV Sculpt prop into the header #363
+Topbar - Edit Menu - working with other application templates - Icon missing for save startup file #726
+Two different rename icons in Edit menu and Outliner #728
+Topbar - Edit Menu - Install Application Template is missing an icon. #727
+Refine the workspaces #723
+Dope Sheet - Tooltip problem in Show Locked Time prop #725
+Image Editor - ... select_linked has no attribute error #724
+Graph Editor - put properties into the header #441 - is in the sidebar for now.
+Sculpting - Change Dynatopo defaults #450
+UV Editor - where to put the Properties in the UV menu? #447
+UV Editor - where to put the Properties in the UV menu? #447
+Particle Edit mode - Options panel - hide settings when corresponding checkbox is off #458
+Image Editor - put options into the Options panel #720
+Image Editor - put radial control hotkeys into the brushes menu #719 - changed hotkeys
+Image Editor - put radial control hotkeys into the brushes menu #719 - removed accidentally experimental entry
+Image Editor - put radial control hotkeys into the brushes menu #719 - Added menu items
+Image Editor - put the brush options into the properties sidebar #445
+Iconize Outliner Right Click menus #701
+Outliner - add button for hotkey C #707
+Merge remote-tracking branch 'blender/master' into sync_blender_master
+Texture Painting - Properties Editor - Stencil brush controls tooltip does not show hotkey #715 - moved the buttons into the brush menu
+Keymap vs UI - Check for missing radial control buttons #717 - Grease Pencil in Weight Paint
+Keymap vs UI - Check for missing radial control buttons #717 - Particle Paint
+Keymap vs UI - Check for missing radial control buttons #717 - Weight Paint Brush Weight
+Keymap vs UI - Check for missing radial control buttons #717 - Grease pencil radial control buttons in sculpt mode
+Keymap vs UI - Check for missing radial control buttons #717 - Grease Pencil radial buttons
+Keymap vs UI - Check for missing radial control buttons #717 - Angle and texture angle buttons
+Texture paint - put radial control buttons into the brush menu #718
+Weight paint - put radial control buttons into the brush menu #716
+Vertex paint - Radial Control button - Missing hotkey in tooltip #706 - Moved the buttons to the brush menu
+Sculpting - Radial control buttons missing the shortcut #714 - changed brush size label to brush radius label
+Sculpting - Radial control buttons missing the shortcut #714 - Moved the buttons to the brush menu.
+Node Panel: Error - bforartists_UI_flags not found #690
+Outliner - Missing Tool names in the tooltip #708
+Fixed a wrong intendation
+Sculpting - Sculpt menu - remove double entries, put Show Brush into options panel #712
+Outliner - Data API mode - remove double menu entry add and remove keying set #713
+Sculpting - Brush menu - remove double menu entry Sculpt Tool #454
+Sculpt, Weight, Vertex, Texturepaint mode - missing Curves panel #711
+Movie Clip Editor - put View options into the Display menu #448
+Add icon_geom.blend to the repository #709
+Properties Editor - Texture painting - Texture panel - image_paint not defined #705
+All painting modes - Brush menu - put enabled modes content into the Options #703
+Sculpting - Brush Menu - remove double menu entry Unified Size and Strength #452
+Image Paint - remove the Image Paint Tool menu #700
+Outliner - remove View and Area menus from the right click menus #702
+Missing icons in import export for bvh and x3d #699
+FBX Import - Armatures - hide Primary and secondary Bone Axis dropdown boxes when Automatic Bone orientation is ticked #681
+Scuplt mode - Brush menu - greyed out color picker #692
+User Preferences - Turn off Load UI #693
+External files, unpack - remove Disable Auto-Pack, keep all packed files #694
+Header - Window menu needs icons #697
+Outliner - View Menu - move expand collapse all to the hierarchy functionality. #698
+Merge remote-tracking branch 'blender/master' into sync_blender_master
+Header - Remove Blender links from the Help menu #695
+Clean up brush panels #457 - Texture and Weightpaint plus some corrections
+Clean up brush panels #457 - Vertex paint
+Clean up brush panels #457 - Scuplting
+Sculpt mode - Properties editor - Brush Panel - hided the Trim slider as long as Trim is not checked. #455
+Quick Favourites needs a menu entry #468
+Quick favourites hotkey Q - UI_pie_menu_invoke: named menu "pie.view_of" not found #691 - Removed unwanted hotkey entries from the official pie menu addon.
+Compositing and Texture Node Editor - Zoom Border needs a menu entry #469 - Fixed name inconsistencies
+Compositing and Texture Node Editor - Zoom Border needs a menu entry #469
+Grease Pencil draw Delete #491 - remapped delete hotkey from call menu to delete frame.
+Curve - Edit Mode - Shrink/Fatten needs a menu entry #474
+UV Editor - UV Menu - Weld/Align menu needs icons #521
+Grease Pencil - Edit Mode - Hide needs menu entry #686
+3D View - Object menu- Relations Menu - Make Local menu needs icons #564
+Merge pull request #689 from Bforartists/Draises_branch
+Sculpt mode - Brush menu - show hide sub menu needs investigation #688
+All menus with hide - add hotkey for Hide one level #465
+UV Editor - put the UV Select mode Menu into the UV menu #484 - fixed the reverted keymap
+Keymap - Node Editor section polulated with unwanted entries #684
+UV Editor - put the UV Select mode Menu into the UV menu #484
+All menus with hide - add hotkey for Hide one level #465
+Node editor - Node menu - Move is missing the hotkey ... #592
+Revert Draise branch changes #685
+Grease Pencil - Edit Mode - Add Vertex Group needs a menu entry #490
+Greasepencil object - make Interpolate and Sequence hotkeys consistent across modes #667 - removed hotkeys in edit mode
+Removed some Restore buttons in the keymap manager. They were some unwanted changes in the factory settings. #682
+Merge remote-tracking branch 'sync_blender_master/sync_blender_master'
+Updated the experimental keymap because of changes in the Blender code
+Merge remote-tracking branch 'blender/master' into sync_blender_master
+Fixed merge conflicts - made the Bforartists standard keymap the default keymap again
+Merge remote-tracking branch 'bforartists/Draises_branch'
+Mesh Object - Edit Mode - Mesh Menu - Delete Menu - separate dissolve part into own menu #557
+Mesh Object - Edit Mode - Mesh Menu - Delete Menu - iconize Delete buttons #558
+Mesh Object - Edit Mode - Mesh Menu - iconize Separate Menu #559
+Grease Pencil - Edit mode - Strokes menu - Delete menu - separate Dissolve, iconize #571
+Motion Tracking - Movie Clip Editor - Mask Mode - Remove double menu entry transform #603
+Iconize and refine parent menus #657
+Implement Set active Camera #528
+3D View Object Menu - Grease Pencil object - Put gpencil.convert into the convert menu #646
+Mesh - Edit Mode - split up the normals menu #662
+Removed double menu entry delete in grease pencil strokes menu. #670
+Toolbar - remove double menu entry Search Menu #671
+Readd icons for import and export svg and gITF #672
+Make infostring in toolbar off by default #679
+Put Info string and warning into the Misc toolbar #673
+Remove Blender version number from info string #674
+Outliner - Missing Tool names in the tooltip #708
+Bone Roll in Edit Mode - put the recalculate roll menu one hierarchy upwards #543
+Bone Roll in Edit Mode - put the recalculate roll menu one hierarchy upwards #543
+Revert Draise branch changes #685
+Workspaces - toolbar not present in some layouts #676
+
+
+
+
+
